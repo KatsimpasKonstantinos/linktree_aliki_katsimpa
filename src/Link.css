@@ -1,17 +1,52 @@
 .Link {
-    border-radius: 20px; /* Add rounded corners */
-    background-color: #9D44C0; /* Add a color */
-    margin-bottom: 10px; /* Add margin to separate the boxes */
-    width: 40vw; /* Set a fixed width for the boxes */
-    min-width: 250px; /* Set a minimum width in case of smaller screens */
-    max-width: 700px;
-    padding: 10px; /* Add padding to create space between text and box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a stronger floating effect */
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 30vmax;
+    padding: 1vmin;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
 }
 
 .Text {
-    color: #ebbfd9;
     text-decoration: none;
-    font-size: calc(10px + 2vmin);
-    margin: 1vw; /* Adjust the margin to be 2% of the viewport width */
+    font-size: calc(10px + 2vmax);
+    float: left;
+    margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.Logo {
+    height: 4vmax;
+    pointer-events: none;
+    float: right;
+}
+
+.defaultChild {
+    background-color: #9D44C0;
+    color: #ebbfd9;
+}
+
+.theme1Child {
+    background-color: #C1D8C3;
+    color: #6A9C89;
+}
+
+.theme2Child {
+    background-color: #F1B4BB;
+    color: #FDF0F0;
+}
+
+.theme3Child {
+    background-color: #BCA37F;
+    color: #113946;
+}
+
+.theme4Child {
+    background-color: #7D7C7C;
+    color: #F1EFEF;
 }
