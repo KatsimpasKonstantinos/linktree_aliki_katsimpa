@@ -1,0 +1,17 @@
+.Link {
+    border-radius: 20px; /* Add rounded corners */
+    background-color: #9D44C0; /* Add a color */
+    margin-bottom: 10px; /* Add margin to separate the boxes */
+    width: 40vw; /* Set a fixed width for the boxes */
+    min-width: 250px; /* Set a minimum width in case of smaller screens */
+    max-width: 700px;
+    padding: 10px; /* Add padding to create space between text and box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a stronger floating effect */
+}
+
+.Text {
+    color: #ebbfd9;
+    text-decoration: none;
+    font-size: calc(10px + 2vmin);
+    margin: 1vw; /* Adjust the margin to be 2% of the viewport width */
+}
