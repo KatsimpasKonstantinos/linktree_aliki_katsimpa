@@ -6,6 +6,7 @@ import profilePic from './aliki.jpg';
 
 import imageLinkedIn from './logos/linkedIn.png';
 import imageTelekom from './logos/telekom.png';
+import imageGmail from './logos/gmail.png';
 
 function App() {
 
@@ -38,9 +39,8 @@ function App() {
       </div>
       <h1>Aliki Katsimpa</h1>
       <Link name={"LinkedIn"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
-      <Link name={"Telekom"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageTelekom} theme={theme} />
-      <Link name={"blank2"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
-      <Link name={"blank3"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
+      <Link name={"Telekom Mail"} link={"mailto:aliki.katsimpa@telekom.de"} logo={imageTelekom} theme={theme} />
+      <Link name={"Personal Mail"} link={"mailto:aliki.katsimpa@telekom.de"} logo={imageGmail} theme={theme} />
       
       <button onClick={changeTheme} className={`button ${theme}Child`}>Change Theme</button>
 
