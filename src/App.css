@@ -37,14 +37,14 @@
 }
 
 .theme1 {
-  background: linear-gradient(0.52turn, #F5E8B7, #CD5C08);
-  color: #6A9C89;
+  background: linear-gradient(0.52turn, #274690, #1B264F);
+  color: #F5F3F5;
   transition: background-color 0.5s ease;
 }
 
 .theme2 {
-  background: linear-gradient(0.52turn, #132043, #1F4172);
-  color: #FDF0F0;
+  background: linear-gradient(0.52turn, #D1E3DD, #6E7DAB);
+  color: #32292F;
   transition: background-color 0.5s ease;
 }
 

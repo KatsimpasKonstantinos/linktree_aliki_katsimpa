@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import profilePic from './aliki.jpg';
 
 import imageLinkedIn from './logos/linkedIn.png';
+import imageTelekom from './logos/telekom.png';
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
       </div>
       <h1>Aliki Katsimpa</h1>
       <Link name={"LinkedIn"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
-      <Link name={"blank1"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
+      <Link name={"Telekom"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageTelekom} theme={theme} />
       <Link name={"blank2"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
       <Link name={"blank3"} link={"https://www.linkedin.com/in/alikikatsimpa/"} logo={imageLinkedIn} theme={theme} />
       
